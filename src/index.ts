@@ -10,3 +10,7 @@ let age: number = 20;
 
 // //types practice
 // normal JS types + any, unknown, never, enum, tuple
+
+// type any 
+// not recommended nbut if needed, in tsconfig file:
+// "noImplicitAny": false,
