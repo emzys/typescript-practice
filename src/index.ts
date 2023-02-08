@@ -28,3 +28,17 @@
 // enum Size { Small = 1, Medium, Large }
 // const enum Size { Small = 1, Medium, Large }
 // let mySize: Size = Size.Small;
+
+
+// functions
+// tsconfig => "noUnusedParameters": true,  (not a part of default strict:true behaviour)
+// tsconfig => "noImplicitReturns": true,  (not a part of default strict:true behaviour)
+// tsconfig => "noUnusedLocals": true,
+
+// function calcTax(income: number, taxYear?: number):number /**:number */ {
+function calcTax(income: number, taxYear = 2022):number /**:number */ {
+    if (taxYear <2022)
+        return income * 1.2;
+    return income * 1.3;
+}
+console.log(calcTax(400000));
