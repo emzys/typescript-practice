@@ -52,8 +52,7 @@ function getCustomer(id:number): Customer | null {
 }
 
 let customer = getCustomer(0)
-// Optional property access operator
-console.log(customer?.birthday?.getFullYear());
+console.log(customer?.birthday?.getFullYear()); // Optional property access operator
 
 // Optional elemenet access operator
 // customer?.[0]
