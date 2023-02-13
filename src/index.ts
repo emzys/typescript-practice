@@ -42,3 +42,17 @@ function calcTax(income: number, taxYear = 2022):number /**:number */ {
     return income * 1.3;
 }
 console.log(calcTax(400000));
+
+
+// objects
+let employee: {
+    readonly id: number,
+    name: string,
+    retire: (date: Date) => void /** defining a menthod */
+} = {
+    id: 1, 
+    name: "emilia",
+    retire: (date: Date) => {
+        console.log(date);
+    }
+};
