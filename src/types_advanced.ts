@@ -59,3 +59,10 @@ console.log(customer?.birthday?.getFullYear()); // Optional property access oper
 // let log: any = (message: string) => console.log(message);
 let log: any = null;
 log?.('a')
+
+// Nullish Coaelscing Operator: ??
+let speed: number | null = null;
+let ride = {
+  // Falsy (undefined, null, '', false, 0)
+  speed: speed ?? 30
+}
