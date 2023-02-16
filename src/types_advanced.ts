@@ -8,7 +8,7 @@
 // let employee: Employee = {
 //   id: 1,
 //   name: "Em",
-//   retire: (date: Date) => {console.log(date)}  
+//   retire: (date: Date) => {console.log(date)}
 // }
 
 // union types
