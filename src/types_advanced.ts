@@ -66,3 +66,10 @@ let ride = {
   // Falsy (undefined, null, '', false, 0)
   speed: speed ?? 30
 }
+
+// Type Assertions 
+// eg could be HTMLElement, HTMLInputElement -> different associated methods to tap into
+// no type conversion actually happening, we need to know what type the element actually is or our code will break
+// let phone = document.getElementById('phone') as HTMLInputElement;
+let phone = <HTMLInputElement> document.getElementById('phone');
+phone.value;
