@@ -73,3 +73,15 @@ let ride = {
 // let phone = document.getElementById('phone') as HTMLInputElement;
 let phone = <HTMLInputElement> document.getElementById('phone');
 phone.value;
+
+// The unknown type
+function render(document: unknown) {
+  // Narrowing
+  if (typeof document === 'string') {
+    document.toLocaleUpperCase();
+  }
+  // if (document instanceof WordDocument) {}
+  // document.move();
+  // document.fly();
+  // document.whatever();
+}

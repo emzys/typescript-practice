@@ -25,4 +25,9 @@ let ride = {
 };
 let phone = document.getElementById('phone');
 phone.value;
+function render(document) {
+    if (typeof document === 'string') {
+        document.toLocaleUpperCase();
+    }
+}
 //# sourceMappingURL=types_advanced.js.map
