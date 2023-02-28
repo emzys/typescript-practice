@@ -12,4 +12,5 @@ class Account {
     }
 }
 let account = new Account(1, "Em", 0);
+console.log(account instanceof Account);
 //# sourceMappingURL=oop.js.map
