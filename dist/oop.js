@@ -1,5 +1,5 @@
 "use strict";
-class Acount {
+class Account {
     constructor(id, owner, balance) {
         this.id = id;
         this.owner = owner;
@@ -11,4 +11,5 @@ class Acount {
         this.balance += ammount;
     }
 }
+let account = new Account(1, "Em", 0);
 //# sourceMappingURL=oop.js.map

@@ -1,4 +1,4 @@
-class Acount {
+class Account {
     id: number;
     owner: string;
     balance: number;
@@ -15,3 +15,5 @@ class Acount {
         this.balance += ammount;
     }
 }
+
+let account = new Account(1, "Em", 0); 
