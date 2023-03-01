@@ -74,3 +74,7 @@ let ride2 = new Ride();
 ride2.start();
 
 console.log(Ride.activeRides);
+
+
+// Inheritance: 
+// in constructor method add super(), properties withoug access keyword, pass them in super parameters
