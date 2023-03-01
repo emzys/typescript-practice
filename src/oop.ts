@@ -13,14 +13,21 @@ class Account {
         this._balance += ammount;
     }
     
-    getTax(): number {
+    get tax(): number {
         let tax = this.calculateTax();
         return tax;
     }
 
-    getBalance(): number {
+    get balance(): number {
         return this._balance
     }
+    
+    // set balance(value: number) {
+    //     if (value <= 0)
+    //         throw new Error("invalid value");
+    //     this._balance = value
+    // }
+
 
     private calculateTax(): number {
         return this._balance * .8;
@@ -32,4 +39,7 @@ console.log(account instanceof Account);
 
 // Access control keywords
 // Access modifiers: public, private, protected
-console.log(account.getBalance());
+
+// getters and setters
+// account.balance = 1;
+console.log(account.balance);

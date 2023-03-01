@@ -10,11 +10,11 @@ class Account {
             throw new Error("invalid ammount");
         this._balance += ammount;
     }
-    getTax() {
+    get tax() {
         let tax = this.calculateTax();
         return tax;
     }
-    getBalance() {
+    get balance() {
         return this._balance;
     }
     calculateTax() {
@@ -23,5 +23,5 @@ class Account {
 }
 let account = new Account(1, "Em", 0);
 console.log(account instanceof Account);
-console.log(account.getBalance());
+console.log(account.balance);
 //# sourceMappingURL=oop.js.map
