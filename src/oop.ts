@@ -40,6 +40,17 @@ console.log(account instanceof Account);
 // Access control keywords
 // Access modifiers: public, private, protected
 
+
 // getters and setters
 // account.balance = 1;
 console.log(account.balance);
+
+
+// Index signatures
+class SeatAssigment {
+    [seatNumber: string]: string;
+}
+
+let seats = new SeatAssigment();
+seats.A1 = "Em";
+seats.A2 = "Z";

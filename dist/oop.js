@@ -24,4 +24,9 @@ class Account {
 let account = new Account(1, "Em", 0);
 console.log(account instanceof Account);
 console.log(account.balance);
+class SeatAssigment {
+}
+let seats = new SeatAssigment();
+seats.A1 = "Em";
+seats.A2 = "Z";
 //# sourceMappingURL=oop.js.map
