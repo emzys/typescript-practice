@@ -1,7 +1,8 @@
 class Account {
-    id: number;
+    readonly id: number;
     owner: string;
     balance: number;
+    nichckname?: string;
 
     constructor(id: number, owner: string, balance: number) {
         this.id = id;
