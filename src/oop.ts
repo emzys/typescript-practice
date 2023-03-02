@@ -100,3 +100,16 @@ class Teacher extends Person {
         return `Professor ${super.fullName}`
     }
 }
+
+
+// Polimorphism
+// Open closed principle - classes should be open for extension and closed for modification
+function printNames(people: Person[]) {
+    for (let person of people) 
+        console.log(person.fullName)
+}
+
+printNames([
+    new Student(1,'Nana','Banana'),
+    new Teacher('Jola', 'Granola')
+])

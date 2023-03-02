@@ -62,4 +62,12 @@ class Teacher extends Person {
         return `Professor ${super.fullName}`;
     }
 }
+function printNames(people) {
+    for (let person of people)
+        console.log(person.fullName);
+}
+printNames([
+    new Student(1, 'Nana', 'Banana'),
+    new Teacher('Jola', 'Granola')
+]);
 //# sourceMappingURL=oop.js.map
