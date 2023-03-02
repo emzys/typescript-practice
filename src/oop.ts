@@ -113,3 +113,6 @@ printNames([
     new Student(1,'Nana','Banana'),
     new Teacher('Jola', 'Granola')
 ])
+
+
+// Private vs Protected Members
