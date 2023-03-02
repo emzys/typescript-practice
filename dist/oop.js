@@ -57,4 +57,9 @@ class Student extends Person {
         this.studentId = studentId;
     }
 }
+class Teacher extends Person {
+    get fullName() {
+        return `Professor ${super.fullName}`;
+    }
+}
 //# sourceMappingURL=oop.js.map

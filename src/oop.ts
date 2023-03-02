@@ -91,3 +91,12 @@ class Student extends Person {
         super(firstName, lastName);
     }
 }
+
+
+// Method overriding
+// in tsconfig: "noImplicitOverride": true
+class Teacher extends Person {
+    override get fullName() {
+        return `Professor ${super.fullName}`
+    }
+}
