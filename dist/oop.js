@@ -42,4 +42,19 @@ ride1.start();
 let ride2 = new Ride();
 ride2.start();
 console.log(Ride.activeRides);
+class Person {
+    constructor(firstName, lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+    get fullName() {
+        return `${this.firstName} ${this.lastName}`;
+    }
+}
+class Student extends Person {
+    constructor(studentId, firstName, lastName) {
+        super(firstName, lastName);
+        this.studentId = studentId;
+    }
+}
 //# sourceMappingURL=oop.js.map

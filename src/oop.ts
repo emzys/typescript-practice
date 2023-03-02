@@ -77,4 +77,17 @@ console.log(Ride.activeRides);
 
 
 // Inheritance: 
-// in constructor method add super(), properties withoug access keyword, pass them in super parameters
+// in constructor method add super(params), properties without access keyword, pass them in super parameters
+class Person {
+    constructor (public firstName: string, public lastName: string) {}
+
+    get fullName() {
+        return `${this.firstName} ${this.lastName}`
+    }
+}
+
+class Student extends Person {
+    constructor(public studentId: number, firstName: string, lastName: string) {
+        super(firstName, lastName);
+    }
+}
