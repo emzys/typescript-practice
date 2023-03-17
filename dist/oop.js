@@ -70,4 +70,18 @@ printNames([
     new Student(1, 'Nana', 'Banana'),
     new Teacher('Jola', 'Granola')
 ]);
+class Shape {
+    constructor(color) {
+        this.color = color;
+    }
+}
+class Circle extends Shape {
+    constructor(radius, color) {
+        super(color);
+        this.radius = radius;
+    }
+    render() {
+        console.log('Rendering a circle');
+    }
+}
 //# sourceMappingURL=oop.js.map
