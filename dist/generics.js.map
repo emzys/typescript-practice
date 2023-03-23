@@ -1,1 +1,1 @@
-{"version":3,"file":"generics.js","sourceRoot":"","sources":["../src/generics.ts"],"names":[],"mappings":""}
+{"version":3,"file":"generics.js","sourceRoot":"","sources":["../src/generics.ts"],"names":[],"mappings":";AAEA,MAAM,YAAY;IACd,YAAmB,GAAM,EAAS,KAAa;QAA5B,QAAG,GAAH,GAAG,CAAG;QAAS,UAAK,GAAL,KAAK,CAAQ;IAAG,CAAC;CACtD;AAGD,IAAI,IAAI,GAAG,IAAI,YAAY,CAAS,GAAG,EAAC,IAAI,CAAC,CAAC"}
