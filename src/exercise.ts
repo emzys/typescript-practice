@@ -5,3 +5,5 @@ let d: { age: number } = { age: a };
 let e: number[] = [3];
 let f: any;
 let g: any[] = [];
+let g: any[] = [];
+let g: any[] = [];
